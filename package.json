@@ -15,6 +15,11 @@
     "webpack-cli": "^4.6.0"
   },
   "scripts": {
-    "start": "webpack --watch --mode=development"
+    "start": "webpack --watch --mode=development",
+    "postinstall": "webpack"
+  },
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.12.0"
   }
 }
